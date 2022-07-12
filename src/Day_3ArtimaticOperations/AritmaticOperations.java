@@ -7,6 +7,10 @@ public class AritmaticOperations {
 
         int number1 = 10;
         int number2 =20;
+        int number31 = number1 + number2;
+        System.out.println(number31);
+        System.out.println(number1+number2);
+
         float numberf1 = 40.7f;
         double numberd1 = 76.868686;
         long numberl1 = 75655857l;
@@ -40,6 +44,7 @@ public class AritmaticOperations {
         int num7 = 80;
         float num8 = 90.6f;
         float num9 = num7 - num8;
+        System.out.println(num7-num8);
 
         long num10 = 763673l;
         int num11 = 786;
@@ -64,7 +69,7 @@ public class AritmaticOperations {
         int div5 =3;
         float div6 =(float) div4/div5;
         System.out.println(div6);
-        System.out.println(div4/div5);
+        System.out.println((float) div4/div5);
 
 
         //modulus(%) it gives you the remainder

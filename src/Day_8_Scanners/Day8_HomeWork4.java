@@ -10,8 +10,10 @@ public class Day8_HomeWork4 {
 
         System.out.println(" Please enter your first name. ");
         String firstName = sc.nextLine();
+
         System.out.println(" please enter your last name. ");
         String lastName = sc.nextLine();
+
         System.out.println(" Your full name is: " +firstName+"\t"+ lastName);
 
 

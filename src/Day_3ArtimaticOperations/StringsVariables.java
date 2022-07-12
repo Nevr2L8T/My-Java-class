@@ -25,7 +25,7 @@ public class StringsVariables {
         String thisisatext ="yaseen text646364";
 
         char ch = 'R';
-       String st = "toys"+"-"+ch+ "  "+"Us";
+       String st = "toys"+"-"+ch+"-" +"us";
         System.out.println(st);
 
         int numnum =34;

@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Topic3_NextLine {
     public static void main(String[] args) {
-        Scanner Fullname = new Scanner(System.in);
+        Scanner FullName = new Scanner(System.in);
         System.out.println("enter full name");
 
-        String name = Fullname.nextLine();
+        String name = FullName.nextLine();
         System.out.println("the full name is:"+name);
 
 

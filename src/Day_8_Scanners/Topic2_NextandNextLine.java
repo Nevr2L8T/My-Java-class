@@ -10,7 +10,7 @@ public class Topic2_NextandNextLine {
         String somthing = st.next();
 
         System.out.print("the thing you put is:"+somthing);
-        System.out.print("enter somtjing with space");
+        System.out.print("enter something with space");
         String Butter = st.nextLine();
         System.out.print("the thing you enterd is:"+Butter);
 

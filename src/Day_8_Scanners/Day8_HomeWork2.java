@@ -7,8 +7,10 @@ public class Day8_HomeWork2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println(" Please enter first number ");
         int number1 = scanner.nextInt();
+
         System.out.println(" Please enter second number ");
         int number2 = scanner.nextInt();
+
         System.out.println("Please enter third number ");
         int number3 = scanner.nextInt();
 

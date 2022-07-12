@@ -4,17 +4,21 @@ import java.util.Scanner;
 
 public class Day8_HomeWork1 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         // Creating a calculator
+        Scanner sc = new Scanner(System.in);
         System.out.println( " Let's make a calculator! ");
         System.out.println(" Please enter first number. ");
         int numberA = sc.nextInt();
+
         System.out.println(" Please enter second number. ");
         int numberB = sc.nextInt();
+
         System.out.println(" Almost there!!! ");
         System.out.println(" Please select from the following operations. ");
+
         System.out.println("\n1: Addition \n2: Subtraction \n3: Multiplication \n4: Division \n5: Modulus");
         int option = sc.nextInt();
+
         int result = 0;
 
         if (option==1){

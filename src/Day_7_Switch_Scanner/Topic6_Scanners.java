@@ -10,6 +10,10 @@ public class Topic6_Scanners {
         byte byteNumber = sc.nextByte();
         System.out.println("the byteNumber is:"+byteNumber);
 
+        System.out.println("enter a intager");
+        int intvalue = sc.nextInt();
+        System.out.println("the intnumber is"+ intvalue);
+
 
     }
 }
