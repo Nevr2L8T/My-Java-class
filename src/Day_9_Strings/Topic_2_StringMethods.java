@@ -18,8 +18,13 @@ public class Topic_2_StringMethods {
         String str5 = str1.concat(str6).concat(str2);
         System.out.println(str5);
         String str4= str1+str2;
+<<<<<<< HEAD
         System.out.println(str4);
 
+=======
+
+        System.out.println(str4);
+>>>>>>> origin/master
         //contains()
         String name1 = "Gulay";
         boolean YN = name1.contains("lu");
@@ -29,13 +34,19 @@ public class Topic_2_StringMethods {
         boolean YN1 = name1.endsWith("ay");
         System.out.println(YN1);
 
+<<<<<<< HEAD
         //equals()
+=======
+>>>>>>> origin/master
         String name2 = "Sam";
         String  name3 = "sam";
          boolean YN3 = name2.equals(name3);
         System.out.println(YN3);
         System.out.println(name2.equalsIgnoreCase(name3));
+<<<<<<< HEAD
         System.out.println(name2==name3);
+=======
+>>>>>>> origin/master
 
         //indexOf()
         String name5 = "banana";
@@ -57,13 +68,18 @@ public class Topic_2_StringMethods {
 
         //replace()
         String name12 = "Gulay";
+<<<<<<< HEAD
        String  name13=name12.replace("Gul","n");
+=======
+       String  name13=name12.replace('G','n');
+>>>>>>> origin/master
         System.out.println(name13);
 
         //startsWith()
         String name16 = "Alican";
         boolean YN5 = name16.startsWith("Al");
         System.out.println(YN5);
+<<<<<<< HEAD
         // substring()
 
         String str11 = "LokmanEkin";
@@ -92,6 +108,8 @@ public class Topic_2_StringMethods {
 
 
 
+=======
+>>>>>>> origin/master
 
         //
 
@@ -107,9 +125,12 @@ public class Topic_2_StringMethods {
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> origin/master
     }
 }
