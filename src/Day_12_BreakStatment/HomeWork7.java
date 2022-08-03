@@ -12,8 +12,8 @@ public class HomeWork7 {
         //- Example of Substring: word ==> "banana" 3 characters Palindrome substrings are ==> "ana", "nan" "ana". Count is 3.
         //PS = This is a little hard question please give your best and make sure you only use the things we have learned so far.
 
-        Scanner sc = new Scanner(System.in);
         System.out.println("please enter a string ");
+        Scanner sc = new Scanner(System.in);
         String input = sc.next();
         int count = 0;
 
